@@ -108,7 +108,7 @@ public class FortuneTellerFrame extends JFrame
         ImageIcon scaledIcon = new ImageIcon(image);
 
         iconLbl = new JLabel("Fortune Teller", scaledIcon, JLabel.CENTER);
-        iconLbl.setFont(new Font("Times New Roman", Font.PLAIN, 25));
+        iconLbl.setFont(new Font("Times New Roman", Font.PLAIN, 40));
         iconLbl.setVerticalTextPosition(JLabel.BOTTOM);
         iconLbl.setHorizontalTextPosition(JLabel.CENTER);
         iconLbl.setVerticalAlignment(JLabel.CENTER);
